@@ -530,7 +530,7 @@ table {
   color: rgba(0, 0, 0, 0.7); }
 
 .c-shadow {
-  box-shadow: 0 24px 24px rgba(0, 0, 0, 0.03); }
+  box-shadow: 0 24px 24px rgba(0, 0, 0, 0.08); }
 
 img {
   max-width: 100%;
@@ -542,3 +542,10 @@ img {
 @media (max-width: 768px) {
   .c-box {
     flex: 0 0 100%; } }
+::selection {
+  background: #e04747;
+  color: white; }
+
+::-moz-selection {
+  background: #e04747;
+  color: white; }
