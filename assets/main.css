@@ -510,7 +510,7 @@ table {
 .tag {
   background: #e3e3e3;
   border-radius: 4px;
-  margin: 0.15em 0.5em;
+  margin: 0.15em 0;
   padding: 0 0.5em;
   display: inline-block; }
 
